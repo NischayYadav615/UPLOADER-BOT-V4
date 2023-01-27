@@ -11,19 +11,19 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5905005671:AAH_pE5TL9TmZJMpLTVASUGggLv00t_U-ug")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 19911978))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "e3f5848d4c384af9e6f1f52ca84c19c7")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5826950002").split())
 
-    BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
+    BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "5282794542").split())
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Botbynischay")
 
     MAX_FILE_SIZE = 4194304000
 
@@ -43,19 +43,19 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "Use this bot @Nischayyadav"
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "Url_Uploader_dlbot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001642382009))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001825852507))
 
     LOGGER = logging
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "botbynischay")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
 
